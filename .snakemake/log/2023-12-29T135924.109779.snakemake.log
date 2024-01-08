@@ -1,0 +1,6 @@
+Building DAG of jobs...
+MissingInputException in rule tRNAscan in file /home/kursat21/PycharmProjects/Miuul/Snakefile, line 5:
+Missing input files for rule tRNAscan:
+    output: output/tRNA_scan_result.txt
+    affected files:
+        resource/G_intestinalis.fasta

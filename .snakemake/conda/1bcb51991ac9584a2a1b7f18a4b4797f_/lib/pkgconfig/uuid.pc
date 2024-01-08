@@ -1,0 +1,11 @@
+prefix=/home/kursat21/PycharmProjects/Miuul/.snakemake/conda/1bcb51991ac9584a2a1b7f18a4b4797f_
+exec_prefix=/home/kursat21/PycharmProjects/Miuul/.snakemake/conda/1bcb51991ac9584a2a1b7f18a4b4797f_
+libdir=/home/kursat21/PycharmProjects/Miuul/.snakemake/conda/1bcb51991ac9584a2a1b7f18a4b4797f_/lib
+includedir=/home/kursat21/PycharmProjects/Miuul/.snakemake/conda/1bcb51991ac9584a2a1b7f18a4b4797f_/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.38.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

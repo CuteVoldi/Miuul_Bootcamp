@@ -1,0 +1,133 @@
+{
+  "build": "py312h4b3b743_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "python >=3.12,<3.13.0a0",
+    "python_abi 3.12.* *_cp312"
+  ],
+  "extracted_package_dir": "/home/kursat21/miniforge3/pkgs/rpds-py-0.16.2-py312h4b3b743_0",
+  "features": "",
+  "files": [
+    "lib/python3.12/site-packages/rpds/__init__.py",
+    "lib/python3.12/site-packages/rpds/__init__.pyi",
+    "lib/python3.12/site-packages/rpds/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/rpds/py.typed",
+    "lib/python3.12/site-packages/rpds/rpds.cpython-312-x86_64-linux-gnu.so",
+    "lib/python3.12/site-packages/rpds_py-0.16.2.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/rpds_py-0.16.2.dist-info/METADATA",
+    "lib/python3.12/site-packages/rpds_py-0.16.2.dist-info/RECORD",
+    "lib/python3.12/site-packages/rpds_py-0.16.2.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/rpds_py-0.16.2.dist-info/WHEEL",
+    "lib/python3.12/site-packages/rpds_py-0.16.2.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/rpds_py-0.16.2.dist-info/license_files/LICENSE"
+  ],
+  "fn": "rpds-py-0.16.2-py312h4b3b743_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/kursat21/miniforge3/pkgs/rpds-py-0.16.2-py312h4b3b743_0",
+    "type": 1
+  },
+  "md5": "08f4cfbcfc399da83f8713630c1ba5fa",
+  "name": "rpds-py",
+  "package_tarball_full_path": "/home/kursat21/miniforge3/pkgs/rpds-py-0.16.2-py312h4b3b743_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/rpds/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c373205d6ee5a530880b0d0a5dbc36d105f9ef7fe46ec12758878cb0202e82f3",
+        "sha256_in_prefix": "c373205d6ee5a530880b0d0a5dbc36d105f9ef7fe46ec12758878cb0202e82f3",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "lib/python3.12/site-packages/rpds/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "bb07abc7884bc5d0b074ac66fa96b3dd84e2febced124d14a5925c5388455765",
+        "sha256_in_prefix": "bb07abc7884bc5d0b074ac66fa96b3dd84e2febced124d14a5925c5388455765",
+        "size_in_bytes": 2362
+      },
+      {
+        "_path": "lib/python3.12/site-packages/rpds/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "cab6c8c9c4cfe5a072556f0b9b94f72a9feed52af0a92221a2b128064cf9cb54",
+        "sha256_in_prefix": "cab6c8c9c4cfe5a072556f0b9b94f72a9feed52af0a92221a2b128064cf9cb54",
+        "size_in_bytes": 301
+      },
+      {
+        "_path": "lib/python3.12/site-packages/rpds/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/rpds/rpds.cpython-312-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "198519a0a315ec6a72d46e938a28911943f856510879b4e87098b28fbfd843a5",
+        "sha256_in_prefix": "198519a0a315ec6a72d46e938a28911943f856510879b4e87098b28fbfd843a5",
+        "size_in_bytes": 5148064
+      },
+      {
+        "_path": "lib/python3.12/site-packages/rpds_py-0.16.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/rpds_py-0.16.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c878001f8f499e1bb9c5cbefb9fc16c17d728c74cd7d3d85564db4e00ec4d85e",
+        "sha256_in_prefix": "c878001f8f499e1bb9c5cbefb9fc16c17d728c74cd7d3d85564db4e00ec4d85e",
+        "size_in_bytes": 4135
+      },
+      {
+        "_path": "lib/python3.12/site-packages/rpds_py-0.16.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "cd354354e8314c944895a99a401e8f8451a0becc726883e6126456aefcffa1e2",
+        "sha256_in_prefix": "cd354354e8314c944895a99a401e8f8451a0becc726883e6126456aefcffa1e2",
+        "size_in_bytes": 953
+      },
+      {
+        "_path": "lib/python3.12/site-packages/rpds_py-0.16.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/rpds_py-0.16.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "9183ae7be4a8a31033b488123321f614b31788976ae3129d6c66ab441148d900",
+        "sha256_in_prefix": "9183ae7be4a8a31033b488123321f614b31788976ae3129d6c66ab441148d900",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "lib/python3.12/site-packages/rpds_py-0.16.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "dc76716fac581f489b0349a48e9fe96abecf50b6bf119f79fcc548f3c3375838",
+        "sha256_in_prefix": "dc76716fac581f489b0349a48e9fe96abecf50b6bf119f79fcc548f3c3375838",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.12/site-packages/rpds_py-0.16.2.dist-info/license_files/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "314e4e91be3baa93c0fb4bccc9e4e97cd643eb839b065af921782c2175fe9909",
+        "sha256_in_prefix": "314e4e91be3baa93c0fb4bccc9e4e97cd643eb839b065af921782c2175fe9909",
+        "size_in_bytes": 1057
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "491455a8c7205d2a9f3382bfbbd084ec41eb50e79f659bef6f9e63311e6ed61c",
+  "size": 998132,
+  "subdir": "linux-64",
+  "timestamp": 1703822836000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/rpds-py-0.16.2-py312h4b3b743_0.conda",
+  "version": "0.16.2"
+}

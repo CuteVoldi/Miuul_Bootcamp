@@ -1,0 +1,200 @@
+{
+  "build": "pyha770c72_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >3.6"
+  ],
+  "extracted_package_dir": "/home/kursat21/miniforge3/pkgs/dpath-2.1.6-pyha770c72_0",
+  "features": "",
+  "files": [
+    "lib/python3.12/site-packages/dpath-2.1.6.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/dpath-2.1.6.dist-info/LICENSE.txt",
+    "lib/python3.12/site-packages/dpath-2.1.6.dist-info/METADATA",
+    "lib/python3.12/site-packages/dpath-2.1.6.dist-info/RECORD",
+    "lib/python3.12/site-packages/dpath-2.1.6.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/dpath-2.1.6.dist-info/WHEEL",
+    "lib/python3.12/site-packages/dpath-2.1.6.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/dpath-2.1.6.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/dpath/__init__.py",
+    "lib/python3.12/site-packages/dpath/exceptions.py",
+    "lib/python3.12/site-packages/dpath/options.py",
+    "lib/python3.12/site-packages/dpath/py.typed",
+    "lib/python3.12/site-packages/dpath/segments.py",
+    "lib/python3.12/site-packages/dpath/types.py",
+    "lib/python3.12/site-packages/dpath/util.py",
+    "lib/python3.12/site-packages/dpath/version.py",
+    "lib/python3.12/site-packages/dpath/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/dpath/__pycache__/exceptions.cpython-312.pyc",
+    "lib/python3.12/site-packages/dpath/__pycache__/options.cpython-312.pyc",
+    "lib/python3.12/site-packages/dpath/__pycache__/segments.cpython-312.pyc",
+    "lib/python3.12/site-packages/dpath/__pycache__/types.cpython-312.pyc",
+    "lib/python3.12/site-packages/dpath/__pycache__/util.cpython-312.pyc",
+    "lib/python3.12/site-packages/dpath/__pycache__/version.cpython-312.pyc"
+  ],
+  "fn": "dpath-2.1.6-pyha770c72_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/kursat21/miniforge3/pkgs/dpath-2.1.6-pyha770c72_0",
+    "type": 1
+  },
+  "md5": "5b4bc44a847dea93ee9666e4bcd22220",
+  "name": "dpath",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/kursat21/miniforge3/pkgs/dpath-2.1.6-pyha770c72_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/dpath-2.1.6.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/dpath-2.1.6.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "4d6b11df1207688d33c321cefa268a868bf94760f3806b08c514f5f4b68d4211",
+        "sha256_in_prefix": "4d6b11df1207688d33c321cefa268a868bf94760f3806b08c514f5f4b68d4211",
+        "size_in_bytes": 1138
+      },
+      {
+        "_path": "site-packages/dpath-2.1.6.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "0fdac174d04a5e548536024cea91534b7d7584db47198d2654bbd5f2dad19937",
+        "sha256_in_prefix": "0fdac174d04a5e548536024cea91534b7d7584db47198d2654bbd5f2dad19937",
+        "size_in_bytes": 15634
+      },
+      {
+        "_path": "site-packages/dpath-2.1.6.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "1632e644f860069448591f05a55ea4d6728c49784213a6c91889054f925a3f33",
+        "sha256_in_prefix": "1632e644f860069448591f05a55ea4d6728c49784213a6c91889054f925a3f33",
+        "size_in_bytes": 1550
+      },
+      {
+        "_path": "site-packages/dpath-2.1.6.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dpath-2.1.6.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "sha256_in_prefix": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/dpath-2.1.6.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "9b90a23c97722f6935079c6c4edcc8cdd9d564d33d2dca2aba7abde9f133e77b",
+        "sha256_in_prefix": "9b90a23c97722f6935079c6c4edcc8cdd9d564d33d2dca2aba7abde9f133e77b",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/dpath-2.1.6.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "22ed123d76309f5d58354f90e8eebddf62d7144056df8241d1dccf2e7985028e",
+        "sha256_in_prefix": "22ed123d76309f5d58354f90e8eebddf62d7144056df8241d1dccf2e7985028e",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/dpath/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3bca89a3b6d6315fca28079661b951bcd6c226e255ef9502960bdc0603a132d8",
+        "sha256_in_prefix": "3bca89a3b6d6315fca28079661b951bcd6c226e255ef9502960bdc0603a132d8",
+        "size_in_bytes": 12029
+      },
+      {
+        "_path": "site-packages/dpath/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "ef5938e0da81378be050ccfa2e4443438859c0e0c95564cf8d0d1a4c381d36bf",
+        "sha256_in_prefix": "ef5938e0da81378be050ccfa2e4443438859c0e0c95564cf8d0d1a4c381d36bf",
+        "size_in_bytes": 433
+      },
+      {
+        "_path": "site-packages/dpath/options.py",
+        "path_type": "hardlink",
+        "sha256": "fa116643642a6ff7cdd28ecfcc001fe913e96cdafd2d457d04bc48eeedcb338a",
+        "sha256_in_prefix": "fa116643642a6ff7cdd28ecfcc001fe913e96cdafd2d457d04bc48eeedcb338a",
+        "size_in_bytes": 32
+      },
+      {
+        "_path": "site-packages/dpath/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dpath/segments.py",
+        "path_type": "hardlink",
+        "sha256": "956960e58482954f0009f1fe31ad32fe5cdcb46d3c6b27c31089d7bc9b77fd6f",
+        "sha256_in_prefix": "956960e58482954f0009f1fe31ad32fe5cdcb46d3c6b27c31089d7bc9b77fd6f",
+        "size_in_bytes": 13241
+      },
+      {
+        "_path": "site-packages/dpath/types.py",
+        "path_type": "hardlink",
+        "sha256": "cc3a4b1126a7619c3ec1ee680654c73d22c081f36b242deb28803140abe04747",
+        "sha256_in_prefix": "cc3a4b1126a7619c3ec1ee680654c73d22c081f36b242deb28803140abe04747",
+        "size_in_bytes": 2348
+      },
+      {
+        "_path": "site-packages/dpath/util.py",
+        "path_type": "hardlink",
+        "sha256": "3caf843a38e32a0fcabeff1c726bd28ddc174bae80112e183dbc058739005e47",
+        "sha256_in_prefix": "3caf843a38e32a0fcabeff1c726bd28ddc174bae80112e183dbc058739005e47",
+        "size_in_bytes": 1371
+      },
+      {
+        "_path": "site-packages/dpath/version.py",
+        "path_type": "hardlink",
+        "sha256": "ad431d08d51808c170b0b706cdecb5f7679ad217654bfb1cebab5efe7bdcb879",
+        "sha256_in_prefix": "ad431d08d51808c170b0b706cdecb5f7679ad217654bfb1cebab5efe7bdcb879",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "lib/python3.12/site-packages/dpath/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/dpath/__pycache__/exceptions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/dpath/__pycache__/options.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/dpath/__pycache__/segments.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/dpath/__pycache__/types.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/dpath/__pycache__/util.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/dpath/__pycache__/version.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "acbf9f6e58969882bc067e2428287a54635955a1bddf09597b672620691e05fd",
+  "size": 21040,
+  "subdir": "noarch",
+  "timestamp": 1684714290000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/dpath-2.1.6-pyha770c72_0.conda",
+  "version": "2.1.6"
+}

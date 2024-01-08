@@ -1,0 +1,8 @@
+name: Miuul
+channels:
+  -bioconda
+  -conda-forge
+  -nanoporetech
+dependencies:
+  -trnascan-se
+  -snakemake

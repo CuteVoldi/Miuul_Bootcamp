@@ -1,0 +1,57 @@
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Retrieving input from storage.
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job               count
+--------------  -------
+all                   1
+tRNAscan              1
+tRNAscan_stats        1
+total                 3
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Jan  4 18:51:58 2024]
+localrule tRNAscan:
+    input: resource/G_intestinalis.fasta
+    output: output/tRNA_scan_result.txt
+    jobid: 1
+    reason: Missing output files: output/tRNA_scan_result.txt
+    resources: tmpdir=/tmp
+
+tRNAscan-SE resource/G_intestinalis.fasta -o output/tRNA_scan_result.txt
+[Thu Jan  4 18:52:43 2024]
+Finished job 1.
+1 of 3 steps (33%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Jan  4 18:52:43 2024]
+localrule tRNAscan_stats:
+    input: resource/G_intestinalis.fasta
+    output: output/G_intestinalis.tRNA, output/G_intestinalis.stats
+    jobid: 2
+    reason: Missing output files: output/G_intestinalis.stats, output/G_intestinalis.tRNA
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/1bcb51991ac9584a2a1b7f18a4b4797f_
+Activating conda environment: .snakemake/conda/1bcb51991ac9584a2a1b7f18a4b4797f_
+RuleException:
+CalledProcessError in file /home/kursat21/PycharmProjects/Miuul/Snakefile, line 22:
+Command 'source /home/kursat21/miniforge3/envs/yilan/bin/activate '/home/kursat21/PycharmProjects/Miuul/.snakemake/conda/1bcb51991ac9584a2a1b7f18a4b4797f_'; set -euo pipefail;  python /home/kursat21/PycharmProjects/Miuul/.snakemake/scripts/tmpbk0b3u0b.tRNAscan_stats.py' returned non-zero exit status 1.
+[Thu Jan  4 18:52:44 2024]
+Error in rule tRNAscan_stats:
+    jobid: 2
+    input: resource/G_intestinalis.fasta
+    output: output/G_intestinalis.tRNA, output/G_intestinalis.stats
+    conda-env: /home/kursat21/PycharmProjects/Miuul/.snakemake/conda/1bcb51991ac9584a2a1b7f18a4b4797f_
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-01-04T185157.354650.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

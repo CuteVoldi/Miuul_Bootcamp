@@ -1,0 +1,10 @@
+prefix=/home/kursat21/PycharmProjects/Miuul/.snakemake/conda/1bcb51991ac9584a2a1b7f18a4b4797f_
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: LibYAML
+Description: Library to parse and emit YAML
+Version: 0.2.5
+Cflags: -I${includedir}
+Libs: -L${libdir} -lyaml

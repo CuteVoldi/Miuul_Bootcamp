@@ -1,0 +1,5 @@
+#!/home/kursat21/PycharmProjects/Miuul/.snakemake/conda/1bcb51991ac9584a2a1b7f18a4b4797f_/bin/python3.12
+
+from idlelib.pyshell import main
+if __name__ == '__main__':
+    main()

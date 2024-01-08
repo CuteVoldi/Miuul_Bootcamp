@@ -1,0 +1,40 @@
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Retrieving input from storage.
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job               count
+--------------  -------
+all                   1
+tRNAscan              1
+tRNAscan_stats        1
+total                 3
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Jan  4 18:48:56 2024]
+localrule tRNAscan:
+    input: resource/G_intestinalis.fasta
+    output: output/tRNA_scan_result.txt
+    jobid: 1
+    reason: Missing output files: output/tRNA_scan_result.txt
+    resources: tmpdir=/tmp
+
+bash scripts/run_tRNAscan.sh resource/G_intestinalis.fasta output/tRNA_scan_result.txt
+[Thu Jan  4 18:48:56 2024]
+Error in rule tRNAscan:
+    jobid: 1
+    input: resource/G_intestinalis.fasta
+    output: output/tRNA_scan_result.txt
+    shell:
+        bash scripts/run_tRNAscan.sh resource/G_intestinalis.fasta output/tRNA_scan_result.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-01-04T184855.150493.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

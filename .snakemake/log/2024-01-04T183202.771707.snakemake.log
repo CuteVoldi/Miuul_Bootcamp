@@ -1,0 +1,85 @@
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Creating conda environment env/env.yaml...
+Downloading and installing remote packages.
+CreateCondaEnvironmentException:
+Could not create conda environment from /home/kursat21/PycharmProjects/Miuul/env/env.yaml:
+Command:
+mamba env create --quiet --file "/home/kursat21/PycharmProjects/Miuul/.snakemake/conda/316584f9fcc769ecefabd69306a3433a_.yaml" --prefix "/home/kursat21/PycharmProjects/Miuul/.snakemake/conda/316584f9fcc769ecefabd69306a3433a_"
+Output:
+warning  libmamba Cache file "/home/kursat21/miniforge3/pkgs/cache/497deca9.json" was modified by another program
+warning  libmamba Cache file "/home/kursat21/miniforge3/pkgs/cache/09cdf8bf.json" was modified by another program
+
+# >>>>>>>>>>>>>>>>>>>>>> ERROR REPORT <<<<<<<<<<<<<<<<<<<<<<
+
+    Traceback (most recent call last):
+      File "/home/kursat21/miniforge3/lib/python3.10/site-packages/conda/exceptions.py", line 1132, in __call__
+        return func(*args, **kwargs)
+      File "/home/kursat21/miniforge3/lib/python3.10/site-packages/conda_env/cli/main.py", line 78, in do_call
+        exit_code = getattr(module, func_name)(args, parser)
+      File "/home/kursat21/miniforge3/lib/python3.10/site-packages/conda/notices/core.py", line 121, in wrapper
+        return func(*args, **kwargs)
+      File "/home/kursat21/miniforge3/lib/python3.10/site-packages/conda_env/cli/main_create.py", line 152, in execute
+        result[installer_type] = installer.install(prefix, pkg_specs, args, env)
+      File "/home/kursat21/miniforge3/lib/python3.10/site-packages/mamba/mamba_env.py", line 55, in mamba_install
+        index = load_channels(pool, channel_urls, repos, prepend=False)
+      File "/home/kursat21/miniforge3/lib/python3.10/site-packages/mamba/utils.py", line 129, in load_channels
+        index = get_index(
+      File "/home/kursat21/miniforge3/lib/python3.10/site-packages/mamba/utils.py", line 110, in get_index
+        is_downloaded = dlist.download(api.MAMBA_DOWNLOAD_FAILFAST)
+    RuntimeError: Multi-download failed. Reason: Transfer finalized, status: 404 [https://conda.anaconda.org/b/noarch/repodata.json] 2595 bytes
+
+`$ /home/kursat21/miniforge3/condabin/mamba create --quiet --file /home/kursat21/PycharmProjects/Miuul/.snakemake/conda/316584f9fcc769ecefabd69306a3433a_.yaml --prefix /home/kursat21/PycharmProjects/Miuul/.snakemake/conda/316584f9fcc769ecefabd69306a3433a_`
+
+  environment variables:
+                 CIO_TEST=<not set>
+  CONDA_AUTO_UPDATE_CONDA=false
+        CONDA_DEFAULT_ENV=yilan
+                CONDA_EXE=/home/kursat21/miniforge3/bin/conda
+             CONDA_PREFIX=/home/kursat21/miniforge3/envs/yilan
+           CONDA_PREFIX_1=/home/kursat21/miniforge3
+           CONDA_PREFIX_2=/home/kursat21/miniforge3/envs/snake
+    CONDA_PROMPT_MODIFIER=(yilan)
+         CONDA_PYTHON_EXE=/home/kursat21/miniforge3/bin/python
+               CONDA_ROOT=/home/kursat21/miniforge3
+              CONDA_SHLVL=3
+           CURL_CA_BUNDLE=<not set>
+               LD_PRELOAD=<not set>
+                     PATH=/home/kursat21/miniforge3/envs/yilan/bin:/home/kursat21/miniforge3/con
+                          dabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/us
+                          r/games:/usr/local/games:/snap/bin:/snap/bin
+       REQUESTS_CA_BUNDLE=<not set>
+        SNAP_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+            SSL_CERT_FILE=<not set>
+
+     active environment : yilan
+    active env location : /home/kursat21/miniforge3/envs/yilan
+            shell level : 3
+       user config file : /home/kursat21/.condarc
+ populated config files : /home/kursat21/miniforge3/.condarc
+          conda version : 23.3.1
+    conda-build version : not installed
+         python version : 3.10.12.final.0
+       virtual packages : __archspec=1=x86_64
+                          __glibc=2.38=0
+                          __linux=6.5.0=0
+                          __unix=0=0
+       base environment : /home/kursat21/miniforge3  (writable)
+      conda av data dir : /home/kursat21/miniforge3/etc/conda
+  conda av metadata url : None
+           channel URLs : https://conda.anaconda.org/conda-forge/linux-64
+                          https://conda.anaconda.org/conda-forge/noarch
+          package cache : /home/kursat21/miniforge3/pkgs
+                          /home/kursat21/.conda/pkgs
+       envs directories : /home/kursat21/miniforge3/envs
+                          /home/kursat21/.conda/envs
+               platform : linux-64
+             user-agent : conda/23.3.1 requests/2.31.0 CPython/3.10.12 Linux/6.5.0-14-generic ubuntu/23.10 glibc/2.38
+                UID:GID : 1000:1000
+             netrc file : None
+           offline mode : False
+
+
+An unexpected error has occurred. Conda has prepared the above report.
+
+

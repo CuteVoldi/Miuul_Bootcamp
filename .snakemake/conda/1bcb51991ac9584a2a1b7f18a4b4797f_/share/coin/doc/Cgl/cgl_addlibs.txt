@@ -1,0 +1,1 @@
+-L/home/kursat21/PycharmProjects/Miuul/.snakemake/conda/1bcb51991ac9584a2a1b7f18a4b4797f_/lib -lCgl

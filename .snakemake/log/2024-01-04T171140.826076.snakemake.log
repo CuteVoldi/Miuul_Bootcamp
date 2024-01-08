@@ -1,0 +1,13 @@
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Creating conda environment env/env.yaml...
+Downloading and installing remote packages.
+CreateCondaEnvironmentException:
+Could not create conda environment from /home/kursat21/PycharmProjects/Miuul/env/env.yaml:
+Command:
+mamba env create --quiet --file "/home/kursat21/PycharmProjects/Miuul/.snakemake/conda/2428f5aaa8dbd21f400dbeaa5ad0ada6_.yaml" --prefix "/home/kursat21/PycharmProjects/Miuul/.snakemake/conda/2428f5aaa8dbd21f400dbeaa5ad0ada6_"
+Output:
+
+CondaValueError: invalid package specification:  
+
+

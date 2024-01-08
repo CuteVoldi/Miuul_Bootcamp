@@ -1,0 +1,7 @@
+name: Miuul2
+channels:
+  -bioconda
+  -conda-forge
+dependencies:
+  -trnascan-se
+  -snakemake

@@ -1,0 +1,41 @@
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Retrieving input from storage.
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                        count
+-----------------------  -------
+all                            1
+tRNAscan_stats_wildcard        2
+total                          3
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Jan  8 21:29:17 2024]
+localrule tRNAscan_stats_wildcard:
+    input: resource/genomes/G_muris.fasta
+    output: output/tRNAscan/G_muris.tRNA, output/tRNAscan/G_muris.stats
+    jobid: 2
+    reason: Missing output files: output/tRNAscan/G_muris.tRNA
+    wildcards: genome=G_muris
+    resources: tmpdir=/tmp
+
+RuleException:
+WorkflowError in file /home/kursat21/PycharmProjects/Miuul/Snakefile, line 17:
+Failed to open source file /home/kursat21/PycharmProjects/Miuul/scripts/tRnascan_stats.py
+FileNotFoundError: [Errno 2] No such file or directory: '/home/kursat21/PycharmProjects/Miuul/scripts/tRnascan_stats.py'
+[Mon Jan  8 21:29:17 2024]
+Error in rule tRNAscan_stats_wildcard:
+    jobid: 2
+    input: resource/genomes/G_muris.fasta
+    output: output/tRNAscan/G_muris.tRNA, output/tRNAscan/G_muris.stats
+    conda-env: /home/kursat21/PycharmProjects/Miuul/.snakemake/conda/1bcb51991ac9584a2a1b7f18a4b4797f_
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-01-08T212916.249969.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

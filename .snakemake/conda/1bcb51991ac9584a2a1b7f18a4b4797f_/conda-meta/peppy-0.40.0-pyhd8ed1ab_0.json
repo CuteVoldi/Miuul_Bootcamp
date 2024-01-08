@@ -1,0 +1,302 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "attmap >=0.12.5",
+    "logmuse >=0.2",
+    "pandas >=0.24.2",
+    "python >=3.6",
+    "pyyaml >=5",
+    "rich",
+    "ubiquerg >=0.5.2"
+  ],
+  "extracted_package_dir": "/home/kursat21/miniforge3/pkgs/peppy-0.40.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.12/site-packages/peppy-0.40.0.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/peppy-0.40.0.dist-info/LICENSE.txt",
+    "lib/python3.12/site-packages/peppy-0.40.0.dist-info/METADATA",
+    "lib/python3.12/site-packages/peppy-0.40.0.dist-info/RECORD",
+    "lib/python3.12/site-packages/peppy-0.40.0.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/peppy-0.40.0.dist-info/WHEEL",
+    "lib/python3.12/site-packages/peppy-0.40.0.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/peppy-0.40.0.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/peppy/__init__.py",
+    "lib/python3.12/site-packages/peppy/_version.py",
+    "lib/python3.12/site-packages/peppy/const.py",
+    "lib/python3.12/site-packages/peppy/exceptions.py",
+    "lib/python3.12/site-packages/peppy/parsers.py",
+    "lib/python3.12/site-packages/peppy/project.py",
+    "lib/python3.12/site-packages/peppy/sample.py",
+    "lib/python3.12/site-packages/peppy/simple_attr_map.py",
+    "lib/python3.12/site-packages/peppy/utils.py",
+    "lib/python3.12/site-packages/tests/__init__.py",
+    "lib/python3.12/site-packages/tests/conftest.py",
+    "lib/python3.12/site-packages/tests/smoketests/__init__.py",
+    "lib/python3.12/site-packages/tests/smoketests/test_Project.py",
+    "lib/python3.12/site-packages/tests/smoketests/test_Sample.py",
+    "lib/python3.12/site-packages/tests/test_Project.py",
+    "lib/python3.12/site-packages/peppy/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/peppy/__pycache__/_version.cpython-312.pyc",
+    "lib/python3.12/site-packages/peppy/__pycache__/const.cpython-312.pyc",
+    "lib/python3.12/site-packages/peppy/__pycache__/exceptions.cpython-312.pyc",
+    "lib/python3.12/site-packages/peppy/__pycache__/parsers.cpython-312.pyc",
+    "lib/python3.12/site-packages/peppy/__pycache__/project.cpython-312.pyc",
+    "lib/python3.12/site-packages/peppy/__pycache__/sample.cpython-312.pyc",
+    "lib/python3.12/site-packages/peppy/__pycache__/simple_attr_map.cpython-312.pyc",
+    "lib/python3.12/site-packages/peppy/__pycache__/utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/tests/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/tests/__pycache__/conftest.cpython-312.pyc",
+    "lib/python3.12/site-packages/tests/smoketests/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/tests/smoketests/__pycache__/test_Project.cpython-312.pyc",
+    "lib/python3.12/site-packages/tests/smoketests/__pycache__/test_Sample.cpython-312.pyc",
+    "lib/python3.12/site-packages/tests/__pycache__/test_Project.cpython-312.pyc"
+  ],
+  "fn": "peppy-0.40.0-pyhd8ed1ab_0.conda",
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "/home/kursat21/miniforge3/pkgs/peppy-0.40.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "4542ff317313fd6a520840a165708a13",
+  "name": "peppy",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/kursat21/miniforge3/pkgs/peppy-0.40.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/peppy-0.40.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/peppy-0.40.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "a01e991836b891cce7ce724a26c2cb14570e6728bc63a7b626fd2b268ce0a7e2",
+        "sha256_in_prefix": "a01e991836b891cce7ce724a26c2cb14570e6728bc63a7b626fd2b268ce0a7e2",
+        "size_in_bytes": 1269
+      },
+      {
+        "_path": "site-packages/peppy-0.40.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d04d0553800d57b6d3673f484e21b622673d702b529aaa19dd2918ab5d012882",
+        "sha256_in_prefix": "d04d0553800d57b6d3673f484e21b622673d702b529aaa19dd2918ab5d012882",
+        "size_in_bytes": 1942
+      },
+      {
+        "_path": "site-packages/peppy-0.40.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "1f37c1222c105b2491cd95e416998220c2c18cd6184cf28d10ce4bfecf2a5673",
+        "sha256_in_prefix": "1f37c1222c105b2491cd95e416998220c2c18cd6184cf28d10ce4bfecf2a5673",
+        "size_in_bytes": 2554
+      },
+      {
+        "_path": "site-packages/peppy-0.40.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/peppy-0.40.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "sha256_in_prefix": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/peppy-0.40.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f1a4a6454e1f7dcef7a2edf3f23b179158d2eebca0e91daa9c9d57a0330b3d19",
+        "sha256_in_prefix": "f1a4a6454e1f7dcef7a2edf3f23b179158d2eebca0e91daa9c9d57a0330b3d19",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/peppy-0.40.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "30714833af50360d9e90ab0f1570650c5d89b2a2764f807c4cb565f784ea2bab",
+        "sha256_in_prefix": "30714833af50360d9e90ab0f1570650c5d89b2a2764f807c4cb565f784ea2bab",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "site-packages/peppy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "350f8f756c63bef33cc710522dd96d600624b71a4adccb17f555c92f67d07289",
+        "sha256_in_prefix": "350f8f756c63bef33cc710522dd96d600624b71a4adccb17f555c92f67d07289",
+        "size_in_bytes": 581
+      },
+      {
+        "_path": "site-packages/peppy/_version.py",
+        "path_type": "hardlink",
+        "sha256": "fc4c5a1b9e4bdfca8a41958052bd8e0bac1b977ee927d1930a3b6a41b09dc01d",
+        "sha256_in_prefix": "fc4c5a1b9e4bdfca8a41958052bd8e0bac1b977ee927d1930a3b6a41b09dc01d",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "site-packages/peppy/const.py",
+        "path_type": "hardlink",
+        "sha256": "852c9a77f66b6686d9aac9c2c198cceba5bf548dbff46bbbea37cf65caef0138",
+        "sha256_in_prefix": "852c9a77f66b6686d9aac9c2c198cceba5bf548dbff46bbbea37cf65caef0138",
+        "size_in_bytes": 3355
+      },
+      {
+        "_path": "site-packages/peppy/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "02484a7c80d424b3c3713339d0530a265205534f7a7674d59e0563006f635156",
+        "sha256_in_prefix": "02484a7c80d424b3c3713339d0530a265205534f7a7674d59e0563006f635156",
+        "size_in_bytes": 1748
+      },
+      {
+        "_path": "site-packages/peppy/parsers.py",
+        "path_type": "hardlink",
+        "sha256": "8605ee051c5cdc584ad6ee06169f0ff5b038fe697ece0f2d71e1de10be76ba0b",
+        "sha256_in_prefix": "8605ee051c5cdc584ad6ee06169f0ff5b038fe697ece0f2d71e1de10be76ba0b",
+        "size_in_bytes": 4152
+      },
+      {
+        "_path": "site-packages/peppy/project.py",
+        "path_type": "hardlink",
+        "sha256": "e58560e8e5b576a5ebd6504095c0591dd1b393281e0531dccfda1a1cb384a1d9",
+        "sha256_in_prefix": "e58560e8e5b576a5ebd6504095c0591dd1b393281e0531dccfda1a1cb384a1d9",
+        "size_in_bytes": 57829
+      },
+      {
+        "_path": "site-packages/peppy/sample.py",
+        "path_type": "hardlink",
+        "sha256": "338558e0183fff9336c4541a66d5efb43a1be617c13faf100404df2fe2decaaf",
+        "sha256_in_prefix": "338558e0183fff9336c4541a66d5efb43a1be617c13faf100404df2fe2decaaf",
+        "size_in_bytes": 13897
+      },
+      {
+        "_path": "site-packages/peppy/simple_attr_map.py",
+        "path_type": "hardlink",
+        "sha256": "e8d0028117c30c33cdbaf5d49b1dfa81de8b496b1bcef00abf24f030a0172a8f",
+        "sha256_in_prefix": "e8d0028117c30c33cdbaf5d49b1dfa81de8b496b1bcef00abf24f030a0172a8f",
+        "size_in_bytes": 1365
+      },
+      {
+        "_path": "site-packages/peppy/utils.py",
+        "path_type": "hardlink",
+        "sha256": "093dd0f1b6de852d3d38f3c2f3d14ddde2208ebf97706604bd7030b9ae45886c",
+        "sha256_in_prefix": "093dd0f1b6de852d3d38f3c2f3d14ddde2208ebf97706604bd7030b9ae45886c",
+        "size_in_bytes": 6501
+      },
+      {
+        "_path": "site-packages/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tests/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "ad65377c112c3fa4c00eeb56d953de8de43169914b4eeccd5e5813d8490e2317",
+        "sha256_in_prefix": "ad65377c112c3fa4c00eeb56d953de8de43169914b4eeccd5e5813d8490e2317",
+        "size_in_bytes": 1828
+      },
+      {
+        "_path": "site-packages/tests/smoketests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tests/smoketests/test_Project.py",
+        "path_type": "hardlink",
+        "sha256": "c0f28393feda743890d7db7f2000a9e7c3a4675a5a65a738fafea99df46f26bb",
+        "sha256_in_prefix": "c0f28393feda743890d7db7f2000a9e7c3a4675a5a65a738fafea99df46f26bb",
+        "size_in_bytes": 2748
+      },
+      {
+        "_path": "site-packages/tests/smoketests/test_Sample.py",
+        "path_type": "hardlink",
+        "sha256": "a72b4a12dc5cca7d2490118b1a31d92fbea2ef1e1e2f5303861fd00056648bef",
+        "sha256_in_prefix": "a72b4a12dc5cca7d2490118b1a31d92fbea2ef1e1e2f5303861fd00056648bef",
+        "size_in_bytes": 2475
+      },
+      {
+        "_path": "site-packages/tests/test_Project.py",
+        "path_type": "hardlink",
+        "sha256": "904fc3004c7e77708b09d78ebc279e0af32c03fc7b6530807baa15c7f9ccfe7d",
+        "sha256_in_prefix": "904fc3004c7e77708b09d78ebc279e0af32c03fc7b6530807baa15c7f9ccfe7d",
+        "size_in_bytes": 26701
+      },
+      {
+        "_path": "lib/python3.12/site-packages/peppy/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/peppy/__pycache__/_version.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/peppy/__pycache__/const.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/peppy/__pycache__/exceptions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/peppy/__pycache__/parsers.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/peppy/__pycache__/project.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/peppy/__pycache__/sample.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/peppy/__pycache__/simple_attr_map.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/peppy/__pycache__/utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tests/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tests/__pycache__/conftest.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tests/smoketests/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tests/smoketests/__pycache__/test_Project.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tests/smoketests/__pycache__/test_Sample.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tests/__pycache__/test_Project.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4fc229b612cdf50fe1939895f8efe0c14ae41574912bab30708bc4f87d3c8ca7",
+  "size": 34367,
+  "subdir": "noarch",
+  "timestamp": 1702928728000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/peppy-0.40.0-pyhd8ed1ab_0.conda",
+  "version": "0.40.0"
+}

@@ -1,0 +1,40 @@
+{
+  "build": "hdfd78af_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "eido",
+    "pandas",
+    "peppy",
+    "pygments",
+    "slack_sdk",
+    "snakemake-minimal 8.0.1.*"
+  ],
+  "extracted_package_dir": "/home/kursat21/miniforge3/pkgs/snakemake-8.0.1-hdfd78af_0",
+  "features": "",
+  "files": [],
+  "fn": "snakemake-8.0.1-hdfd78af_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/kursat21/miniforge3/pkgs/snakemake-8.0.1-hdfd78af_0",
+    "type": 1
+  },
+  "md5": "1c845cb5e0521b3385bdc4127ec4fe09",
+  "name": "snakemake",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/kursat21/miniforge3/pkgs/snakemake-8.0.1-hdfd78af_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "snakemake",
+  "sha256": "11a11f6899825d0772635b9fb3f88b7a9c300ca103929e2f00ba0af1faa1a3af",
+  "size": 8746,
+  "subdir": "noarch",
+  "timestamp": 1703155481000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/snakemake-8.0.1-hdfd78af_0.tar.bz2",
+  "version": "8.0.1"
+}

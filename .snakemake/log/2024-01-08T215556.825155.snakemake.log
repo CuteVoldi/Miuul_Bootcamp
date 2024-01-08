@@ -1,0 +1,73 @@
+Building DAG of jobs...
+Retrieving input from storage.
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job            count
+-----------  -------
+all                1
+blastn             2
+makeblastdb        1
+total              4
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Jan  8 21:55:56 2024]
+localrule makeblastdb:
+    input: resource/blastn/db/G_intestinalis.fasta
+    output: output/blastn/db/G_intestinalis.ndb, output/blastn/db/G_intestinalis.nhr, output/blastn/db/G_intestinalis.nin, output/blastn/db/G_intestinalis.not, output/blastn/db/G_intestinalis.nsq, output/blastn/db/G_intestinalis.ntf, output/blastn/db/G_intestinalis.nto
+    jobid: 2
+    reason: Missing output files: output/blastn/db/G_intestinalis.ndb
+    wildcards: type=blastn, db=G_intestinalis
+    resources: tmpdir=/tmp
+
+makeblastdb -dbtype nucl -in resource/blastn/db/G_intestinalis.fasta -out output/blastn/db/G_intestinalis
+[Mon Jan  8 21:55:58 2024]
+Finished job 2.
+1 of 4 steps (25%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Jan  8 21:55:58 2024]
+localrule blastn:
+    input: resource/blastn/query/S_salmo.fasta, output/blastn/db/G_intestinalis.ndb
+    output: output/blastn/G_intestinalis/S_salmo.blastn
+    jobid: 3
+    reason: Missing output files: output/blastn/G_intestinalis/S_salmo.blastn; Input files updated by another job: output/blastn/db/G_intestinalis.ndb
+    wildcards: type=blastn, db=G_intestinalis, query=S_salmo
+    resources: tmpdir=/tmp
+
+[Mon Jan  8 21:56:08 2024]
+Finished job 3.
+2 of 4 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Jan  8 21:56:08 2024]
+localrule blastn:
+    input: resource/blastn/query/G_muris.fasta, output/blastn/db/G_intestinalis.ndb
+    output: output/blastn/G_intestinalis/G_muris.blastn
+    jobid: 1
+    reason: Missing output files: output/blastn/G_intestinalis/G_muris.blastn; Input files updated by another job: output/blastn/db/G_intestinalis.ndb
+    wildcards: type=blastn, db=G_intestinalis, query=G_muris
+    resources: tmpdir=/tmp
+
+[Mon Jan  8 21:56:10 2024]
+Finished job 1.
+3 of 4 steps (75%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Jan  8 21:56:10 2024]
+localrule all:
+    input: output/blastn/G_intestinalis/G_muris.blastn, output/blastn/G_intestinalis/S_salmo.blastn
+    jobid: 0
+    reason: Input files updated by another job: output/blastn/G_intestinalis/S_salmo.blastn, output/blastn/G_intestinalis/G_muris.blastn
+    resources: tmpdir=/tmp
+
+[Mon Jan  8 21:56:10 2024]
+Finished job 0.
+4 of 4 steps (100%) done
+Complete log: .snakemake/log/2024-01-08T215556.825155.snakemake.log

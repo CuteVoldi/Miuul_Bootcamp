@@ -1,0 +1,163 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/home/kursat21/miniforge3/pkgs/plac-1.4.2-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "bin/plac_runner.py",
+    "lib/python3.12/site-packages/plac-1.4.2.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/plac-1.4.2.dist-info/LICENSE.txt",
+    "lib/python3.12/site-packages/plac-1.4.2.dist-info/METADATA",
+    "lib/python3.12/site-packages/plac-1.4.2.dist-info/RECORD",
+    "lib/python3.12/site-packages/plac-1.4.2.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/plac-1.4.2.dist-info/WHEEL",
+    "lib/python3.12/site-packages/plac-1.4.2.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/plac-1.4.2.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/plac.py",
+    "lib/python3.12/site-packages/plac_core.py",
+    "lib/python3.12/site-packages/plac_ext.py",
+    "lib/python3.12/site-packages/plac_tk.py",
+    "lib/python3.12/site-packages/__pycache__/plac.cpython-312.pyc",
+    "lib/python3.12/site-packages/__pycache__/plac_core.cpython-312.pyc",
+    "lib/python3.12/site-packages/__pycache__/plac_ext.cpython-312.pyc",
+    "lib/python3.12/site-packages/__pycache__/plac_tk.cpython-312.pyc"
+  ],
+  "fn": "plac-1.4.2-pyhd8ed1ab_0.conda",
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "/home/kursat21/miniforge3/pkgs/plac-1.4.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "0654e79b1841cfe9a52686b286a0f132",
+  "name": "plac",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/kursat21/miniforge3/pkgs/plac-1.4.2-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/plac_runner.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/plac_1702137358163/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "397dc06f1a5833f5edfd41df3a3d1ebd880da8851cb51254df258a080157f150",
+        "sha256_in_prefix": "d5cb705484e4874ac142c9f9d4c414b787d4fb3ff3eb98b5b3f611e01ae35913",
+        "size_in_bytes": 2629
+      },
+      {
+        "_path": "site-packages/plac-1.4.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/plac-1.4.2.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "31534c0e71f22db819ab9ebf7d58b410cd7695b3e09b3329d2e1edcfc303a959",
+        "sha256_in_prefix": "31534c0e71f22db819ab9ebf7d58b410cd7695b3e09b3329d2e1edcfc303a959",
+        "size_in_bytes": 1324
+      },
+      {
+        "_path": "site-packages/plac-1.4.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "2a155f0ed9e97c7bf174532e95e27c6d5e3230f5400639999b0a98e33a276e52",
+        "sha256_in_prefix": "2a155f0ed9e97c7bf174532e95e27c6d5e3230f5400639999b0a98e33a276e52",
+        "size_in_bytes": 5350
+      },
+      {
+        "_path": "site-packages/plac-1.4.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "bf1abe125e8f852470843957080b73568c5b37caca4730e2deb391d215aac517",
+        "sha256_in_prefix": "bf1abe125e8f852470843957080b73568c5b37caca4730e2deb391d215aac517",
+        "size_in_bytes": 1215
+      },
+      {
+        "_path": "site-packages/plac-1.4.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/plac-1.4.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f86fedd281ae13b503d03ad2a55667ab584730157d0c3d97912e6fed7a664e79",
+        "sha256_in_prefix": "f86fedd281ae13b503d03ad2a55667ab584730157d0c3d97912e6fed7a664e79",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/plac-1.4.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e9535fff18ebebb31a05540ed9ba5d3651503ad275190a28bf2329afab99637a",
+        "sha256_in_prefix": "e9535fff18ebebb31a05540ed9ba5d3651503ad275190a28bf2329afab99637a",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/plac-1.4.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "50eae834fa1217150d4965e49f5451c241c694812e397f05c91f3826e2394aab",
+        "sha256_in_prefix": "50eae834fa1217150d4965e49f5451c241c694812e397f05c91f3826e2394aab",
+        "size_in_bytes": 32
+      },
+      {
+        "_path": "site-packages/plac.py",
+        "path_type": "hardlink",
+        "sha256": "cae4ee49b0e49eb76caa10d79c7e845a71de1692958b27ca00fbbf15ae0be584",
+        "sha256_in_prefix": "cae4ee49b0e49eb76caa10d79c7e845a71de1692958b27ca00fbbf15ae0be584",
+        "size_in_bytes": 1601
+      },
+      {
+        "_path": "site-packages/plac_core.py",
+        "path_type": "hardlink",
+        "sha256": "c5f102659e089d363d08049d5e3e0bbede5e3ab5389ae23eb00c6c859d14896b",
+        "sha256_in_prefix": "c5f102659e089d363d08049d5e3e0bbede5e3ab5389ae23eb00c6c859d14896b",
+        "size_in_bytes": 15845
+      },
+      {
+        "_path": "site-packages/plac_ext.py",
+        "path_type": "hardlink",
+        "sha256": "0c98330005bdeba379a363f881094015d0776a45bda3de03c9359a88d2c1d998",
+        "sha256_in_prefix": "0c98330005bdeba379a363f881094015d0776a45bda3de03c9359a88d2c1d998",
+        "size_in_bytes": 39328
+      },
+      {
+        "_path": "site-packages/plac_tk.py",
+        "path_type": "hardlink",
+        "sha256": "d758d29b26649da25b40b48f035cb6a948e5f15868b0ce0830dcf6a2fe50468c",
+        "sha256_in_prefix": "d758d29b26649da25b40b48f035cb6a948e5f15868b0ce0830dcf6a2fe50468c",
+        "size_in_bytes": 1952
+      },
+      {
+        "_path": "lib/python3.12/site-packages/__pycache__/plac.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/__pycache__/plac_core.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/__pycache__/plac_ext.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/__pycache__/plac_tk.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4da413a6abd44d6f635198cf9a1de2ec7487c6affd6dd1b52671bb1398f6dc8d",
+  "size": 25947,
+  "subdir": "noarch",
+  "timestamp": 1702137549000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/plac-1.4.2-pyhd8ed1ab_0.conda",
+  "version": "1.4.2"
+}

@@ -1,0 +1,13 @@
+prefix=/home/kursat21/PycharmProjects/Miuul/.snakemake/conda/1bcb51991ac9584a2a1b7f18a4b4797f_
+exec_prefix=/home/kursat21/PycharmProjects/Miuul/.snakemake/conda/1bcb51991ac9584a2a1b7f18a4b4797f_
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/coin
+
+Name: CBC
+Description: COIN-OR Branch and Cut
+URL: https://projects.coin-or.org/Cbc
+Version: 2.10.10
+Libs: -L${libdir} -lCbcSolver -lCbc
+Libs.private: -lpthread -lrt -lreadline -lncurses  
+Cflags: -I${includedir}
+Requires.private: clp osi-clp cgl osi coinutils 

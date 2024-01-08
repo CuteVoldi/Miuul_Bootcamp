@@ -1,0 +1,10 @@
+#!/home/kursat21/PycharmProjects/Miuul/.snakemake/conda/1bcb51991ac9584a2a1b7f18a4b4797f_/bin/python3.12
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from jsonschema.cli import main
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
